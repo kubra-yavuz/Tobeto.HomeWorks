@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="TypesAndVariables\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TypesAndVariables\" />
+  </ItemGroup>
 </Project>
